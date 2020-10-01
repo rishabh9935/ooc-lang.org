@@ -2,7 +2,7 @@
 
 This is the Markdown sources for the ooc language website, <https://ooc-lang.org>
 
-## Building (Steps)
+## Building(Steps)
 
 [nanoc][] is used to transform Markdown into HTML. It's a piece of ruby software.
 
@@ -22,7 +22,7 @@ bundle exec nanoc
 
 [nanoc]: http://nanoc.ws/
 
-## Deploying (after building site)
+## Deploying(after building site)
 
 nanoc produces output in the `output/` directory as per `nanoc.yaml`, we host
 the website on Github Pages for free hosting, which means you can deploy by
